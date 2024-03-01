@@ -1,0 +1,81 @@
+body {
+    background-color: #F1E3D3;
+}
+
+.title {
+    color: #8E7DBE;
+    font-family: Kalnia;
+}
+
+.subtitle {
+    font-family: Kalnia;
+}
+
+.navbar {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card {
+    background-color: #F2D0A9;
+    transition: background-color 200ms ease-out 100ms, transform 200ms ease-out 100ms;
+}
+
+.card:hover {
+    background-color: #DAD8E5;
+    transform: scale(110%);
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+.footer {
+    margin-top: 40%;
+    bottom: 0;
+    color: #707070;
+    line-height: 2em;
+    padding: .5em 0;
+    position: absolute;
+    font-size: small;
+    width: 100%;
+}
+
+.container-fluid {
+
+    min-height: 100%;
+    overflow: auto;
+    position: relative;
+}
+
+.container {
+    margin-bottom: 5%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.fa {
+    font-size: x-large;
+}
+
+.contacto {
+    font-size: 100px;
+}
+li {
+    display: inline;
+}
+
+.btn {
+    background-color: #8E7DBE;
+}
